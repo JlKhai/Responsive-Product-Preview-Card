@@ -3,14 +3,14 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 const Dashboard = () => {
   return (
     <>
-      <div className="body flex justify-center items-center w-screen h-screen">
-        <div className=" sm:flex-none lg:flex sm:w[100%] lg:w-[720px]  sm:h[100%] lg:h-[500px] justify-center  ">
+      <div className="md:bg-green-100 bg-white flex justify-center items-center w-screen h-screen">
+        <div className=" flex-none md:flex w-[100%] md:w-[720px]  h-[100%] md:h-[500px] justify-center">
           <img
-            className=" img lg:rounded-l-xl sm:w-[100%] lg:w-[50%] "
+            className="rounded-none md:rounded-l-xl w-[100%] md:w-[50%] object-cover h-80 md:h-[100%] md:object-fill"
             src="../public/images/image-product-desktop.jpg"
             alt=""
           />
-          <div className="bg-white sm:w-[100%] lg:w-[50%] rounded-r-xl flex flex-col gap-5 p-10">
+          <div className="bg-white w-[100%] md:w-[50%] rounded-none md:rounded-r-xl flex flex-col gap-5 p-7 md:p-10">
             <p className=" opacity-60 font-semibold font-montserrat select-none">
               R E R F U M E
             </p>
