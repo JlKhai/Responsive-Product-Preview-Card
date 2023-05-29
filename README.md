@@ -1,8 +1,8 @@
-# Newsletter Sign-up Form with Success Message
+# Product Preview Card
 
 A 100% Rresponsive product preview card.
 
-# To start the server and open the app
+# To start and open the app
 
 - npm install
 - npm run dev
