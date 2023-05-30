@@ -3,7 +3,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 const Dashboard = () => {
   return (
     <>
-      <div className="md:bg-green-100 bg-white flex justify-center items-center w-screen h-screen">
+      <div className="md:bg-orange-50 bg-white flex justify-center items-center w-screen h-screen">
         <div className=" flex-none md:flex w-[100%] md:w-[720px]  h-[100%] md:h-[500px] justify-center">
           <img
             className="rounded-none md:rounded-l-xl w-[100%] md:w-[50%] object-cover h-80 md:h-[100%] md:object-fill"
@@ -11,10 +11,10 @@ const Dashboard = () => {
             alt=""
           />
           <div className="bg-white w-[100%] md:w-[50%] rounded-none md:rounded-r-xl flex flex-col gap-5 p-7 md:p-10">
-            <p className=" opacity-60 font-semibold font-montserrat select-none">
+            <p className=" opacity-60 font-semibold font-Fraunces select-none">
               R E R F U M E
             </p>
-            <h1 className=" text-4xl font-black font-Fraunces select-none">
+            <h1 className=" text-4xl font-black font-Fraunces-700 select-none">
               Gabrielle <br /> Essence Eau <br /> De Parfum
             </h1>
             <p className="opacity-60 font-sm Montserrat f">
@@ -23,7 +23,7 @@ const Dashboard = () => {
               CHANEL.
             </p>
             <div className=" flex items-center gap-5">
-              <p className="text-4xl font-bold text-green-700 font-Fraunces select-none">
+              <p className="text-4xl font-extrabold text-green-700 font-Fraunces-200 select-none">
                 $149.99
               </p>
               <span className=" line-through opacity-50  font-semibold select-none">
