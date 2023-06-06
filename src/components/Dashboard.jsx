@@ -17,7 +17,7 @@ const Dashboard = () => {
             src={productImgMob}
             alt=""
           />
-          <div className="bg-white w-[100%] md:w-[50%] h-[70%] md:h-[100%] rounded-none md:rounded-r-xl flex flex-col gap-10 md:gap-6 p-10 md:p-10 ">
+          <div className="bg-white w-[100%] md:w-[50%] h-[70%] md:h-[100%] rounded-none md:rounded-r-xl flex flex-col gap-5 md:gap-6 p-10 md:p-10 ">
             <p className=" opacity-60 font-semibold font-Fraunces text-center md:text-start">
               R E R F U M E
             </p>
@@ -36,7 +36,7 @@ const Dashboard = () => {
                 $169.99
               </span>
             </div>
-            <button className=" bg-green-700 hover:bg-green-900 focus:ring-2 focus:ring-green-700 text-white rounded-lg px-6 py-4 mt-auto">
+            <button className=" bg-green-700 hover:bg-green-900 focus:ring-2 focus:ring-green-700 text-white rounded-lg px-6 py-4">
               <div className=" flex justify-center items-center gap-3">
                 <i className=" text-xl font-bold">
                   <AiOutlineShoppingCart />
