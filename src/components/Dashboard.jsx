@@ -1,11 +1,12 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import productImg from '../images/image-product-desktop.jpg'
 import productImgMob from '../images/image-product-mobile.jpg'
+import Contactme from './Contactme'
 
 const Dashboard = () => {
   return (
     <>
-      <div className=" bg-white md:bg-orange-50 flex justify-center items-center w-screen h-screen">
+      <div className=" bg-white md:bg-orange-50 flex justify-center items-center  h-screen">
         <div className="flex-none md:flex w-[100%] md:w-[720px] h-[100%] md:h-[500px] justify-center">
           <img
             className="hidden md:block rounded-l-xl w-[50%]  h-[100%]"
@@ -36,7 +37,7 @@ const Dashboard = () => {
                 $169.99
               </span>
             </div>
-            <button className=" bg-green-700 hover:bg-green-900 focus:ring-2 focus:ring-green-700 text-white rounded-lg px-6 py-4">
+            <button className=" bg-green-700 hover:bg-green-900 transition ease-in duration-300   focus:ring-2 focus:ring-green-700 text-white rounded-lg px-6 py-4">
               <div className=" flex justify-center items-center gap-3">
                 <i className=" text-xl font-bold">
                   <AiOutlineShoppingCart />
@@ -49,6 +50,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <Contactme />
     </>
   )
 }
